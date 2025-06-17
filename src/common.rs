@@ -1007,6 +1007,7 @@ fn get_api_server_(api: String, custom: String) -> String {
     "http://10.255.33.28:21114/".to_owned()
 }
 
+
 #[inline]
 pub fn is_public(url: &str) -> bool {
     url.contains("rustdesk.com")
